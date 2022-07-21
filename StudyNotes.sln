@@ -3,9 +3,29 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32630.192
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CSharp图解教程 - 第五版", "CSharp图解教程 - 第五版", "{40A7424E-F34F-4B2B-983C-6D38459DD71A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "第3章 - CSharp编程概述", "第3章 - CSharp编程概述", "{08FA8ABC-8B84-4D59-A2E5-917C7261182C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp3", "ConsoleApp3\ConsoleApp3.csproj", "{F200C58D-9DAB-40EF-B4C4-491D730F3D4D}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F200C58D-9DAB-40EF-B4C4-491D730F3D4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F200C58D-9DAB-40EF-B4C4-491D730F3D4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F200C58D-9DAB-40EF-B4C4-491D730F3D4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F200C58D-9DAB-40EF-B4C4-491D730F3D4D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{08FA8ABC-8B84-4D59-A2E5-917C7261182C} = {40A7424E-F34F-4B2B-983C-6D38459DD71A}
+		{F200C58D-9DAB-40EF-B4C4-491D730F3D4D} = {08FA8ABC-8B84-4D59-A2E5-917C7261182C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2563B78A-8E5B-4BBA-89A4-92A819B604CC}
